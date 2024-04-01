@@ -6,3 +6,4 @@ passlib>=1.7.1,<1.8.0
 django-filter>=2.1.0,<2.3.0
 djangorestframework-link-header-pagination>=0.1.1,<0.2.0
 weasyprint>=43,<52
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
